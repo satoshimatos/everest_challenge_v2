@@ -1,0 +1,85 @@
+[gd_scene load_steps=9 format=3 uid="uid://di0m0vi01xfyw"]
+
+[ext_resource type="Script" path="res://scripts/misc/PlayVictory.gd" id="1_d3bbo"]
+[ext_resource type="Texture2D" uid="uid://du8c25rgy4eie" path="res://assets/graphics/characters/player/Soldier-Idle.png" id="2_cljei"]
+[ext_resource type="Texture2D" uid="uid://bj73bmdufdumm" path="res://assets/graphics/characters/player/Soldier-Victory.png" id="2_pqduu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tfqdv"]
+atlas = ExtResource("2_cljei")
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t452d"]
+atlas = ExtResource("2_pqduu")
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n8jsj"]
+atlas = ExtResource("2_pqduu")
+region = Rect2(100, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5iq83"]
+atlas = ExtResource("2_pqduu")
+region = Rect2(200, 0, 100, 100)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bigra"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tfqdv")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t452d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n8jsj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5iq83")
+}],
+"loop": true,
+"name": &"victory",
+"speed": 5.0
+}]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_d3bbo")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(8, 4.52)
+
+[node name="ColorRect" type="ColorRect" parent="MarginContainer"]
+layout_mode = 2
+color = Color(0.547849, 0.409163, 0.423621, 1)
+
+[node name="Player" type="AnimatedSprite2D" parent="."]
+position = Vector2(160, 90)
+sprite_frames = SubResource("SpriteFrames_bigra")
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+autostart = true
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 0
+offset_right = 350.0
+offset_bottom = 110.0
+scale = Vector2(0.916, 1)
+
+[node name="Label" type="Label" parent="CenterContainer"]
+layout_mode = 2
+text = "You won!"
+horizontal_alignment = 1
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

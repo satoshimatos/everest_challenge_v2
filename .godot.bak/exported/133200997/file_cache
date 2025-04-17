@@ -1,0 +1,17 @@
+res://assets/graphics/tilesets/tile_map_forest_floor.tscn::c12935eb3ce595ddb58a8011e253e10a::1743729693::res://.godot/exported/133200997/export-cdcb7897baee4975d102bc08534cb03f-tile_map_forest_floor.scn
+res://scenes/maps/forest_1.tscn::19c7f21dafcc0a57be3a74190c7aed05::1743869438::res://.godot/exported/133200997/export-22e754b57a6b99ba7744e45899ceaa21-forest_1.scn
+res://scenes/maps/Menu.tscn::c519c8bfb4d21e158fd4a599bf650106::1743865852::res://.godot/exported/133200997/export-f23f2dd8da9606ae5548536ab016011e-Menu.scn
+res://scenes/maps/Options.tscn::0c05561051a3436399fc858dcc163d18::1743869438::res://.godot/exported/133200997/export-bfa471127628ecdf4b326bf75610e3d1-Options.scn
+res://scenes/misc/AudioProxy.tscn::2d240ce7e216946782c251abc83d25a3::1743787788::res://.godot/exported/133200997/export-150bb207e04f380c02d9bdb9f908f875-AudioProxy.scn
+res://scenes/misc/Killzone.tscn::cd2691d99321298fcc974e4267215112::1743865852::res://.godot/exported/133200997/export-c22d7a260895e39a2d4da98f4e506499-Killzone.scn
+res://scenes/misc/Death.tscn::ee148d3bb064b49c1e5a8b1f48563d71::1743869438::res://.godot/exported/133200997/export-f4b4062ad816ac29f9e708e855c150ae-Death.scn
+res://scenes/objects/LockedRock.tscn::9bface031f6158e66006700d1d10451a::1743865853::res://.godot/exported/133200997/export-6c837b2337bd7d2874dedd88da951849-LockedRock.scn
+res://scenes/prefabs/characters/AxeMan.tscn::5003909f42f949bd042964a6abe82554::1743869438::res://.godot/exported/133200997/export-5620de8799ad8ce9a546aa860e122a39-AxeMan.scn
+res://scenes/prefabs/characters/AxeManHard.tscn::efc79542a4de735634c0e12388efec8a::1743869438::res://.godot/exported/133200997/export-2bd7b0d72858651731215a6b17b5a2e6-AxeManHard.scn
+res://scenes/prefabs/global/AudioPlayer.tscn::5d50f9f11a463c8cf082d57fdc6aaa93::1743817805::res://.godot/exported/133200997/export-ebc0a6095ba83f00c4aca50c47a678ac-AudioPlayer.scn
+res://scenes/prefabs/objects/small_tree_1.tscn::9c98f06ae30de3dc57054672f870c7c3::1743869438::res://.godot/exported/133200997/export-060a769220cf8afd61205afecd9fce68-small_tree_1.scn
+res://scenes/prefabs/player/Player.tscn::bf82efca60ca6d4bd3c8696374544193::1743869438::res://.godot/exported/133200997/export-9a56f970e9eb3c324d7e56d312f06a01-Player.scn
+res://scenes/ui/HpBar.tscn::41a2e4d28bde672ec6ba0a506cb7bafc::1743869438::res://.godot/exported/133200997/export-e067115541bf76503f79ccabbbd39797-HpBar.scn
+res://scenes/ui/Hud.tscn::bf5fe9c6e67e000899502139230c3f82::1743819512::res://.godot/exported/133200997/export-238d2d95588b0f33aac9dbb4f6518388-Hud.scn
+res://scenes/ui/StaminaBar.tscn::e153afad38f3bd1c95b8749d810b9cd8::1743869438::res://.godot/exported/133200997/export-4cf1da4b0ff6250201d136e5da7fca2e-StaminaBar.scn
+res://tilesets/ForestFloorTileSet.tres::a509eb0adbf707ca19d2e88d0cb16927::1743865797::res://.godot/exported/133200997/export-6b0bdd392dcfec20357d9b6b0262b3ba-ForestFloorTileSet.res

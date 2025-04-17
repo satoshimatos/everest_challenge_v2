@@ -1,0 +1,15 @@
+CanvasLayer
+CenterContainer
+Timer
+Label
+MarginContainer
+VBoxContainer
+BoxContainer
+Camera2D
+ColorRect
+Panel
+Sprite2D
+Parallax2D
+CPUParticles2D
+CollisionShape2D
+StaticBody2D
